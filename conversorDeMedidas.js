@@ -1,4 +1,4 @@
-const medida = prompt("Insira um valor em R$:")
+const valor = prompt("Insira um valor em R$:")
 
 const unidade = prompt(
     "Para qual moeda deseja converter?" +
@@ -11,19 +11,19 @@ const unidade = prompt(
 
 switch (unidade) {
     case "1":
-        alert("Resultado: " + medida + "R$ = " + medida * 1 + "R$") 
+        alert("Resultado: " + valor + "R$ = " + valor * 1 + "R$") 
         break
     case "2":
-        alert("Resultado: " + medida + "R$ = " + medida / 5.68 + "$")
+        alert("Resultado: " + valor + "R$ = " + valor / 5.68 + "$")
         break
     case "3":
-        alert("Resultado: " + medida + "R$ = " + medida / 6.37 + "€")
+        alert("Resultado: " + valor + "R$ = " + valor / 6.37 + "€")
         break
     case "4":
-        alert("Resultado: " + medida + "R$ = " + medida / 0.39 + "¥")
+        alert("Resultado: " + valor + "R$ = " + valor / 0.39 + "¥")
         break
     case "5":
-        alert("Resultado: " + medida + "R$ = " + medida / 3.63 + "A$")
+        alert("Resultado: " + valor + "R$ = " + valor / 3.63 + "A$")
         break
     default:
         alert("Opção inválida.")
